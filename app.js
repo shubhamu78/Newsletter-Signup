@@ -33,10 +33,10 @@ app.post("/",function(req,res){
     var json = JSON.stringify(data);
 
     var options = {
-        url:"https://us18.api.mailchimp.com/3.0/lists/d8b980ff4b",
+        url:"https://us18.api.mailchimp.com/3.0/lists/list_unique_id",
         method:"Post",
         headers:{
-            "Authorization":"shubham c15493481d3e0b2fd45d296d55f13f8f-us18"
+            "Authorization":"any_string api_key"
         },
         body : json
     };
@@ -65,5 +65,3 @@ app.listen(3000,function(){
 });
 
 
-///Api :  c7e2b888724260070d97763fc8135ec0-us19 
-//Unique-id : 5c3bf789f6
